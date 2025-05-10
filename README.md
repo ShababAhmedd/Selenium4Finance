@@ -37,23 +37,22 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    cd daily-finance-automation
 ```
 
- 2. **Import the Project into Your IDE**
+ 2. **Open the project in IntelliJ IDEA or your preferred IDE**
 
-- Open **IntelliJ IDEA** or **Eclipse**
-- Import the project as a **Maven project**
-
-3. **Install Dependencies**
-
-- Maven will automatically resolve all dependencies from the `pom.xml` file
+- Select “Import Project”
+- Choose **Gradle** as the build system
+  
+3. **Let Gradle resolve all dependencies**
+- Dependencies are managed in `build.gradle`
+- Gradle will automatically download them on first run.
 
 4. **Configure Gmail API Token**
 
 - Open `src/test/resources/config.properties`
 - Paste your Gmail `g_token` under the `g_token` key
 
-5. **(Optional) Pass admin credentials securely when running tests**
-
-   If you're using **Gradle**, pass system properties like this:
+5. **(Optional) Pass admin credentials securely via command line**
+- You can pass **credentials** as **system properties** when running tests:
 ```bash
    gradle clean test -Pemail="admin@test.com" -Ppassword="admin123"
 ```
