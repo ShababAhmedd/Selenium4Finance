@@ -1,5 +1,4 @@
-# Daily Finance Automation Framework
-
+# Daily Finance Test Suite
 This is a Selenium-based test automation project using Java, TestNG, and the Page Object Model (POM) design pattern. It automates critical user workflows on [Daily Finance App](https://dailyfinance.roadtocareer.net/), including registration, password reset, profile updates, adding daily costs, search box, admin verification, and data scraping.
 
 
@@ -33,7 +32,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 1. **Clone the repository**
 
    ```bash
-      git clone https://github.com/your-username/daily-finance-automation.git
+      git clone https://github.com/ShababAhmedd/Selenium4Finance.git
       cd daily-finance-automation
    ```
 
