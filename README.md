@@ -64,4 +64,4 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    ```bash
    gradle clean test -PsuiteName="regressionSuite.xml" -Pemail="admin@test.com" -Ppassword="admin123"
    ```
-- Individual test classes can also be run via CLI or ide.
+- Individual test classes can also be run via CLI or IDE.
