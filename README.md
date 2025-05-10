@@ -39,12 +39,12 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 
  2. **Open the project in IntelliJ IDEA or your preferred IDE**
 
-   - Select “Import Project”
    - Choose **Gradle** as the build system
+   - Choose **Groovy** as the Gradle DSL
   
 3. **Let Gradle resolve all dependencies**
    - Dependencies are managed in `build.gradle`
-   - Gradle will automatically download them on when "Sync All Gradle Projects" is clicked.
+   - All the necessary dependencies are already downloaded.
 
 4. **Configure Gmail API Token**
 
