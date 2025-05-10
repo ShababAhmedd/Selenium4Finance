@@ -36,7 +36,12 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    git clone https://github.com/your-username/daily-finance-automation.git
    cd daily-finance-automation
 ```
+
  2. **Import the Project into Your IDE**
 
 - Open **IntelliJ IDEA** or **Eclipse**
 - Import the project as a **Maven project**
+
+3. Install Dependencies
+
+- Maven will automatically resolve all dependencies from the `pom.xml` file
