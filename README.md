@@ -22,6 +22,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 - **Selenium WebDriver** – For browser automation
 - **TestNG** – Test framework for structuring and executing tests
 - **Gradle** – Project and dependency management
+- **Apache Commons CSV** – For reading user data from CSV files
 - **REST Assured** – For Gmail API integration and email validation
 - **Allure** – For test reporting
 - **Git & GitHub** – Version control
