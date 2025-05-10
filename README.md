@@ -42,6 +42,6 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 - Open **IntelliJ IDEA** or **Eclipse**
 - Import the project as a **Maven project**
 
-3. Install Dependencies
+3. **Install Dependencies**
 
 - Maven will automatically resolve all dependencies from the `pom.xml` file
