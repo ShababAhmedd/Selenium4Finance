@@ -65,3 +65,17 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    gradle clean test -PsuiteName="regressionSuite.xml" -Pemail="admin@test.com" -Ppassword="admin123"
    ```
 - Individual test classes can also be run via CLI or IDE.
+
+
+## Generating Allure Reports
+
+1. **Run your tests** using Gradle as usual:
+2. Generate Allure results:
+   If your project is configured with the Allure plugin, run:
+   ```bash
+   allure generate allure-results --clean -output
+   ```
+3. Open the report in your browser:
+   ```bash
+   allure serve allure-results
+   ```
