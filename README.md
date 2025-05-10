@@ -51,10 +51,10 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 - Open `src/test/resources/config.properties`
 - Paste your Gmail `g_token` under the `g_token` key
 
-5. (Optional) Configure Environment Variables Securely
+5. 5. **(Optional) Pass admin credentials securely when running tests**
 
-- Admin email and password can be passed via terminal using:
+   If you're using **Gradle**, pass system properties like this:
 ```bash
--Pemail="admin@test.com" -Ppassword="admin123"
+   gradle clean test -Pemail="admin@test.com" -Ppassword="admin123"
 ```
 
