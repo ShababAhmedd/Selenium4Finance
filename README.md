@@ -55,6 +55,6 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 
 - Admin email and password can be passed via terminal using:
 ```bash
--Demail=admin@test.com -Dpass=admin123
+-Pemail="admin@test.com" -Ppassword="admin123"
 ```
 
