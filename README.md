@@ -14,3 +14,15 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 -  Registration of users from CSV file
 -  Web table data scraping and writing to a text file
 -  All tests follow the POM (Page Object Model) structure
+
+
+##  Tech Stack Used
+
+- **Java** – Programming language
+- **Selenium WebDriver** – For browser automation
+- **TestNG** – Test framework for structuring and executing tests
+- **Maven** – Project and dependency management
+- **Apache Commons CSV** – For reading user data from CSV files
+- **REST Assured** – For Gmail API integration and email validation
+- **Allure** – For test reporting
+- **Git & GitHub** – Version control
