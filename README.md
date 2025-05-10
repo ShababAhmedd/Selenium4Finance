@@ -44,7 +44,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
   
 3. **Let Gradle resolve all dependencies**
    - Dependencies are managed in `build.gradle`
-   - Gradle will automatically download them on first run.
+   - Gradle will automatically download them on when "Sync All Gradle Projects" is clicked.
 
 4. **Configure Gmail API Token**
 
