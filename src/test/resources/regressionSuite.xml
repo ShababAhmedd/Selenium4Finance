@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Daily Finance">
+    <test name = "user registration">
+        <classes>
+            <class name = "testrunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name = "reseting password">
+        <classes>
+            <class name = "testrunner.ResetPassTestRunner"></class>
+        </classes>
+    </test>
+    <test name = "adding item by loggin with new pass">
+        <classes>
+            <class name = "testrunner.ItemTestRunner"></class>
+        </classes>
+    </test>
+    <test name = "admin login and searching the updated email in the search box">
+        <classes>
+            <class name = "testrunner.UpdatedEmailTestRunner"></class>
+        </classes>
+    </test>
+    <test name = "Registering users by getting data from CSV file">
+        <classes>
+            <class name = "testrunner.RegistrationTestRunnerCSV"></class>
+        </classes>
+    </test>
+    <test name = "Scraping web table data by logging in as admin">
+        <classes>
+            <class name = "testrunner.ScrapingDataTestRunner"></class>
+        </classes>
+    </test>
+</suite>
