@@ -26,3 +26,13 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 - **REST Assured** – For Gmail API integration and email validation
 - **Allure** – For test reporting
 - **Git & GitHub** – Version control
+
+
+##  Setup Instructions
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/daily-finance-automation.git
+   cd daily-finance-automation
+  ```
