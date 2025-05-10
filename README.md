@@ -83,3 +83,6 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 ##  Project Structure
 ```
 ```
+## Test Case Documentation
+## Allure Report
+## Video Demonstration
