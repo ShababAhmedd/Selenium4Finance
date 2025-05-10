@@ -54,5 +54,14 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
         g_token = your_generated_gmail_token
      ```
 
+##  Running the Tests
+- To execute the entire regression suite, run:
+   ```bash
+   gradle clean test -PsuiteName="regressionSuite.xml"
+   ```
 
+- To run with admin credentials (securely passed via CLI):
+   ```bash
+   gradle clean test -PsuiteName="regressionSuite.xml" -Pemail="admin@test.com" -Ppassword="admin123"
+   ```
 
