@@ -79,3 +79,41 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    ```bash
    allure serve allure-results
    ```
+
+##  Project Structure
+```
+DailyFinanceTestSuite/
+├── config/ # Configuration classes and test setup
+│ ├── Setup.java
+│ ├── UserModel.java
+│ ├── RegistrationDataSet.java
+├── controller/ # Gmail API controller
+│ └── GmailController.java
+├── page/ # Page Object Model (POM) classes
+│ ├── UserRegistrationPage.java
+│ ├── ResetPage.java
+│ ├── ResetPasswordPage.java
+│ ├── LoginLogoutPage.java
+│ ├── ItemPage.java
+│ ├── UserProfilePage.java
+│ ├── UserDashboardPage.java
+│ └── AdminWebTablePage.java
+├── testrunner/ # TestNG test runner classes
+│ ├── RegistrationTestRunner.java
+│ ├── RegistrationTestRunnerCSV.java
+│ ├── ResetPassTestRunner.java
+│ ├── ItemTestRunner.java
+│ ├── UpdatedEmailTestRunner.java
+│ ├── ScrapingDataTestRunner.java
+│ └── Gmail.java
+├── utils/ # Utility methods
+│ └── Utils.java
+├── src/test/resources/ # Test data and config
+│ ├── users.csv
+│ ├── users.json
+│ ├── config.properties
+│ ├── localStorage.json
+│ └── webTable.txt
+├── regressionSuite.xml # TestNG suite file
+└── README.md
+```
