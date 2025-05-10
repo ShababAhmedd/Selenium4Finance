@@ -3,7 +3,7 @@
 This is a Selenium-based test automation project using Java, TestNG, and the Page Object Model (POM) design pattern. It automates critical user workflows on [Daily Finance App](https://dailyfinance.roadtocareer.net/), including registration, password reset, profile updates, admin verification, and data scraping.
 
 
-## ✨ Features Covered
+##  Features Covered
 
 -  User registration with dynamic Gmail ID
 -  Email confirmation via Gmail API
