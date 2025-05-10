@@ -9,6 +9,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 -  Email confirmation via Gmail API
 -  Password reset with negative and positive test cases
 -  Login with updated credentials
+-  Adding cost with all and mandatory fields
 -  Profile update with email change
 -  Admin login and verification of updated user
 -  Registration of users from CSV file
