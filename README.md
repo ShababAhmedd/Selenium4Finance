@@ -49,7 +49,10 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 4. **Configure Gmail API Token**
 
    - Open `src/test/resources/config.properties`
-   - Paste your Gmail `g_token` under the `g_token` key
+   - Add your Gmail access token like this:
+     ```base
+        g_token = your_generated_gmail_token
+     ```
 
 5. **(Optional) Pass admin credentials securely via command line**
    - You can pass **credentials** as **system properties** when running tests:
