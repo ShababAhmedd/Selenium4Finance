@@ -45,3 +45,8 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 3. **Install Dependencies**
 
 - Maven will automatically resolve all dependencies from the `pom.xml` file
+
+4. **Configure Gmail API Token**
+
+- Open `src/test/resources/config.properties`
+- Paste your Gmail `g_token` under the `g_token` key
