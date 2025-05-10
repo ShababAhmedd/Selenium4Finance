@@ -54,9 +54,5 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
         g_token = your_generated_gmail_token
      ```
 
-5. **(Optional) Pass admin credentials securely via command line**
-   - You can pass **credentials** as **system properties** when running tests:
-   ```bash
-      gradle clean test -Pemail="admin@test.com" -Ppassword="admin123"
-   ```
+
 
