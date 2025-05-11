@@ -122,9 +122,7 @@ TestNG_project/
 |           ├── regressionSuite.xml     # TestNG suite configuration
 │           ├── localStorage.json
 |           ├── users.csv
-│           └── webTable.txt
-├──              
+│           └── webTable.txt            
 ├── build.gradle                    # Gradle build configuration
 └── README.md
-
 ```
