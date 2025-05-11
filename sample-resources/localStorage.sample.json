@@ -1,4 +1,3 @@
-# this will be automatically generated while running the project
 {
   "authToken": "your_admin_auth_token_here",
   "authTokenData": "{\"_id\":\"admin_id\",\"email\":\"admin@test.com\",\"role\":\"admin\",\"token\":\"your_admin_auth_token_here\"}"
