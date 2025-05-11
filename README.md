@@ -61,6 +61,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
      ```base
         g_token = your_generated_gmail_token
      ```
+   > - Gmail API token must be refreshed manually after expiration.
 
 ##  Running the Tests
 - To execute the entire regression suite, run:
