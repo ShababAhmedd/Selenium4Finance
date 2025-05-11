@@ -34,7 +34,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 
    ```bash
       git clone https://github.com/ShababAhmedd/Selenium4Finance.git
-      cd daily-finance-automation
+      cd Selenium4Finance
    ```
 
  2. **Open the project in IntelliJ IDEA or your preferred IDE**
