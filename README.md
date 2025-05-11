@@ -80,9 +80,14 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    allure serve allure-results
    ```
 
+## Video Demonstration
+### A complete screen recording of the automation test suite execution has been captured:
+https://github.com/user-attachments/assets/864968b1-a629-40fe-aabe-fc2f84188646
+
+  
 ##  Project Structure
 ```
 ```
 ## Test Case Documentation
 ## Allure Report
-## Video Demonstration
+
