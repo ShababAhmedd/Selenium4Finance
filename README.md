@@ -88,7 +88,7 @@ https://github.com/user-attachments/assets/864968b1-a629-40fe-aabe-fc2f84188646
 - Overview:
   ![Allure Report Overview](screenshots/allure_overview.png)
 - Behaviours:
-- ![Allure Report Behaviours](screenshots/allure_behaviours.png)
+- ![Allure Report Behaviours](screenshots/allure_behaviour.png)
   
 ##  Project Structure
 ```
