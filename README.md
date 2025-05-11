@@ -73,7 +73,10 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    ```bash
    gradle clean test -PsuiteName="regressionSuite.xml" -Pemail="admin@test.com" -Ppassword="admin123"
    ```
-- Individual test classes can also be run via CLI or IDE.
+- Individual test classes can also be run via CLI or IDE. To execute a specific test class (e.g., ItemTestRunner) directly via CLI:
+  ```bash
+   gradle clean test --tests "testrunner.ItemTestRunner"
+  ```
 
 
 ## Generating Allure Reports
