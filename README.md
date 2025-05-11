@@ -49,7 +49,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 4. **Required Resource Files**
    Before running the project, create the following files inside `src/test/resources/`:
    - `config.properties` – Holds your Gmail API token. Use `config.sample.properties` as a reference.
-   - `users.sample.csv` – Stores user data to be registered. Use `users.sample.json` as a template. Update the file with the user data to be registered. 
+   - `users.csv` – Stores user data to be registered. Use `users.sample.json` as a template. Update the file with the user data to be registered. 
    - `localStorage.json` – Used for storing local auth tokens. Use `localStorage.sample.json` as a reference (just create the file empty. The authToken and authTokenData will be written after running the project).
 > These files are excluded from version control for security. You must create them manually based on the provided samples.
 
