@@ -45,8 +45,15 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
 3. **Let Gradle resolve all dependencies**
    - Dependencies are managed in `build.gradle`
    - All the necessary dependencies are already downloaded.
+     
+4. **Required Resource Files**
+   Before running the project, create the following files inside `src/test/resources/`:
+   - `config.properties` – Holds your Gmail API token. Use `config.sample.properties` as a reference.
+   - `users.json` – Stores registered test user data. Use `users.sample.json` as a template.
+   - `localStorage.json` – Used for storing local auth tokens. Use `localStorage.sample.json` as a reference.
+> These files are excluded from version control for security. You must create them manually based on the provided samples.
 
-4. **Configure Gmail API Token**
+5. **Configure Gmail API Token**
 
    - Open `src/test/resources/config.properties`
    - Add your Gmail access token like this:
