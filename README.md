@@ -52,7 +52,7 @@ This is a Selenium-based test automation project using Java, TestNG, and the Pag
    - `users.csv` – Stores user data to be registered. Use `users.sample.json` as a template. Update the file with the user data to be registered. 
    - `localStorage.json` – Used for storing local auth tokens. Use `localStorage.sample.json` as a reference (just create the file empty. The authToken and authTokenData will be written after running the project).
 > These files are excluded from version control for security. You must create them manually based on the provided samples.
-> These sample files can be found within sample-resources which is situated at the root of this project.
+> These sample files can be found within `sample-resources` which is situated at the root of this project.
 
 5. **Configure Gmail API Token**
 
