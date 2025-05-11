@@ -103,4 +103,28 @@ https://github.com/user-attachments/assets/864968b1-a629-40fe-aabe-fc2f84188646
 
 ##  Project Structure
 ```
+TestNG_project/
+├── sample-resources/               # Sample template files (safe to share)
+│   ├── config.sample.properties
+│   ├── localStorage.sample.json
+│   └── users.sample.csv
+├── src/
+│   └── test/
+│       ├── java/
+│       │   ├── config/             # Setup, UserModel, RegistrationDataSet
+│       │   ├── controller/         # Gmail API controller for email/Snippet
+│       │   ├── page/               # Page Object Model (POM) classes
+│       │   └── testrunner/         # Test classes for each user/admin flow
+|       |   └── utils/              # Utils
+│       └── resources/              # Local resources (config.properties, localStorage.json, users.csv were not pushed to repo)
+│           ├── config.properties
+│           ├── users.json
+|           ├── regressionSuite.xml     # TestNG suite configuration
+│           ├── localStorage.json
+|           ├── users.csv
+│           └── webTable.txt
+├──              
+├── build.gradle                    # Gradle build configuration
+└── README.md
+
 ```
